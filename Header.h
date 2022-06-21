@@ -29,6 +29,7 @@ Node *insertNode(Node *p, int x) {
         else 
             p->right = insertNode(p->right,x);
     }
+    return t;
 } 
 
 void readData(Node *&p) {
